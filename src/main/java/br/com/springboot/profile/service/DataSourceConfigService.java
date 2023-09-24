@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class DataSourceConfigService {
 
-    private DataSourceConfig dataSourceConfig;
+    private final DataSourceConfig dataSourceConfig;
 
     @Autowired
     public DataSourceConfigService(DataSourceConfig dataSourceConfig) {
